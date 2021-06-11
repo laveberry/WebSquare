@@ -1,0 +1,9 @@
+{
+   "charset": "UTF-8",
+   "reqMethod": "POST",
+   "serviceURL": "http://localhost:9090/ws5/training/getUserInfo.do",
+   "contentType": "application/json",
+   "requestContent": "{\"dc_reqUserInfo\": {\"EMP_CD\": \"10000002\"}}",
+   "responseContent": "{\"msg\":\"조회가 완료되었습니다.\",\"dc_userInfo\":{\"ZIP_CD\":\"233808\",\"JOIN_DATE\":\"20060814\",\"CREATED_DATE\":\"2016-12-07\",\"EMAIL\":\"tuyu121@inswave01.com\",\"GENDER_CD\":\"F\",\"ASSIGNED_TASK\":null,\"POSITION_CD\":\"03\",\"EMP_NM\":\"풍길동\",\"DUTY_CD\":\"06\",\"ROLE_CD\":\"05\",\"UPDATED_DATE\":\"2016-12-07\",\"EMP_CD\":10000002,\"ADDRESS1\":\"강원 정선군 정선읍\",\"ADDRESS2\":\"덕우리 \"},\"msgCode\":\"S\"}",
+   "sendTime": "2021-06-11 13:33:05"
+}

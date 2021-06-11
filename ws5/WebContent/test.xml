@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<html xmlns="http://www.w3.org/1999/xhtml" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:w2="http://www.inswave.com/websquare"
+		xmlns:xf="http://www.w3.org/2002/xforms">
+		<head>
+			<w2:type>DEFAULT</w2:type>
+			<w2:buildDate />
+			<xf:model>
+				<xf:instance>
+					<data xmlns="" />
+				</xf:instance>
+				<w2:dataCollection baseNode="map"></w2:dataCollection>
+				<w2:workflowCollection></w2:workflowCollection>
+			</xf:model>
+			<script type="text/javascript" lazy="false"><![CDATA[
+        
+	scwin.onpageload = function() {
+		ipt1.setValue("12345678");
+	};
+	
+	scwin.onpageunload = function() {
+		
+	};
+	
+	
+	scwin.scwin.btnSelect_pn_onfocus = function(e) {
+		
+	};
+	
+	scwin.btnSelect_pnclick = function(e) {
+		alert("처리중");
+	};
+	]]></script>
+			<style type="text/css"><![CDATA[
+    	.aa{background-color: green;}
+    	
+    	 ]]></style>
+		</head>
+		<body ev:onpageload="scwin.onpageload" ev:onpageunload="scwin.onpageunload">
+			<xf:input adjustMaxLength="false" id="" style="width:200px;height:51px;background-color: yellow" placeholder="성명을 넣어주세요"></xf:input>
+			<xf:input adjustMaxLength="false" id="" style="width:146px;height:53px;" initValue="123456789" dataType="number"
+				displayFormat="#,###" applyFormat="all" class="aa">
+			</xf:input>
+			<xf:trigger type="button" style="width:80px;height:37px;" id="scwin.btnSelect_pn" ev:onclick="scwin.btnSelect_pnclick"
+				ev:onfocus="scwin.scwin.btnSelect_pn_onfocus">
+				<xf:label><![CDATA[조회]]></xf:label>
+			</xf:trigger>
+			<xf:input adjustMaxLength="false" id="ipt1" style="width:144px;height:32px;" class="dbgct"></xf:input>
+			<w2:calendar footerDiv="false" id="" style="width: 100px;height: 100px;"></w2:calendar>
+		</body>
+</html>
